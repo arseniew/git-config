@@ -1,0 +1,9 @@
+[core]
+        editor = vim
+[alias]
+        co = checkout
+        cm = commit
+        st = status
+        lb = branch -vv
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	cb = checkout -b
